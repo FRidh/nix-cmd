@@ -1,6 +1,4 @@
-#!/usr/bin/env nix-shell
-#!nix-shell -i python -p pythonPackages.click
-
+#!/usr/bin/env python
 import click
 import shlex
 import subprocess
